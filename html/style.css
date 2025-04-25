@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #42868d;
+  color: #0c0b0b;
+}
+
+header,
+nav,
+main,
+footer {
+  width: 100%;
+}
+
+header {
+  background: url("header_bg.jpg");
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  animation: fadeIn 2s ease-out;
+  background-size: cover;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: #333;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 1s;
+}
+
+nav a:hover {
+  color: #ff9800;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 50px;
+  max-width: 900px;
+  margin: 0 auto;
+  /* float:right;s */
+
+}
+
+.her {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  animation: fadeIn 1.2s;
+}
+
+.her img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 4px solid #ff9800;
+}
+
+h1,
+h2 {
+  margin: 5px 0;
+}
+
+.proj-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+}
+
+.proj-table th,
+.proj-table td {
+  border: 5px solid #130f12;
+  padding: 20px 20px;
+  text-align: left;
+}
+
+.proj-table th {
+  background: #346e29;
+  color: #fff;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+input,
+textarea,
+button {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1opx;
+}
+
+button {
+  background: #346e29;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  transition: transform 1s;
+  margin-top: 10px;
+}
+
+button:hover {
+  transform: scale(1.07);
+  background: #e68900;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.dropdown {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

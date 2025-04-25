@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Saranya Muthaiyan Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Saranya Muthaiyan</h1>
+    <p>Frontend Developer</p>
+  </header>
+  <nav>
+    <a href="index.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main class="container">
+   
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">FullName</label>
+      <input type="text" id="name" name="name" required />
+      <br>
+      <label>Reason:</label>
+      <select class="dropdown" name="Reasons">
+        <option value="Quick check">Enquiry</option>
+        <option value="FAQs">FAQs</option>
+        <option value="More -detail">More-Details</option>
+        <option value="appointment">Appointments</option>
+        <option value="other" selected>Other</option>
+      </select><br>
+
+
+      <!-- <label for="email">Email</label> -->
+      <!-- <input type="email" id="email" name="email" required /> -->
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <h2>Subscribe to Newsletter</h2>
+    <form>
+      <label for="newsletter-email">Email</label>
+      <input type="email" id="newsletter-email" name="newsletter-email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </main>
+  <footer>&copy; 2025 Saranya Muthaiyan. All rights reserved.</footer>
+</body>
+
+</html>
